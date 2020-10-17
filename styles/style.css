@@ -1,0 +1,1266 @@
+@import url(./reset.css);
+@import url(../fonts/fonts.css);
+
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/Background.svg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top{
+    margin-top: 46px;
+    margin-left: 17.22%;
+    margin-right: 20.21%;
+    width: 62.57%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.company-name{
+    width: 152px;
+    height: 24px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.registration{
+    width: 153px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.log-in{
+    width: 44px;
+    height: 17px;
+    font-family: "Montserrat-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+.sign-up{
+    width: 90px;
+    height: 36px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.sign{
+    margin: 10px 17px 9px 18px;
+    width: 55px;
+    height: 17px;
+    font-family: "Montserrat-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.header-center{
+    margin-top: 174.5px;
+    width: 470px;
+    height: 252.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.motto1{
+    width: 470px;
+    height: 126px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.motto2{
+    margin-top: 28.5px;
+    width: 396px;
+    height: 25px;
+    font-family: "Roboto-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #F7F3F2;
+}
+
+.search{
+    margin-top: 33px;
+    width: 225px;
+    height: 40px;
+    background: #FF4E50;
+    border: none;
+    border-radius: 40px;
+}
+
+.button-search{
+    margin: 12px 18.5px 11px 19.5px;
+    width: 187px;
+    height: 17px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;}
+
+.container{
+    margin: 0px auto;
+    width: 940px;
+    height: 2302px;
+}
+
+.work-info{
+    margin-top: 89px; 
+    height: 467px;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-info-title{
+    margin-bottom: 35px;
+    width: 342px;
+    height: 32px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    align-self: center;
+    text-align: center;
+    color: #444444;
+}
+
+.box1-work-info{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1_1, .box1_2, .box1_3{
+    width: 300px;
+    height: 400px;
+}
+
+.box1_1{
+    background-image: url(../images/Step\ 1\ image.svg);
+    background-size: cover;
+}
+
+.box1_2{
+    background-image: url(../images/Step\ 1\ image\ \(1\).svg);
+    background-size: cover;
+}
+
+.box1_3{
+    background-image: url(../images/Step\ 1\ image\ \(2\).svg);
+    background-size: cover;
+}
+
+.box1_1_1{
+    margin: 219px 25px 21px 25px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps{
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+}
+
+.step{
+    height: 12px;
+    font-family: "Montserrat-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.box1_1_1 .step{
+    margin: 5px 13px 3px 13px;
+    width: 44px;
+}
+
+.box1_2_1 .step, .box1_3_1 .step{
+    margin: 5px 12px 3px 12px;
+    width: 46px;
+}
+
+.box-work-info-title{
+    margin-top: 15px;
+    width: 250px;
+    height: 58px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.box-work-info-description{
+    margin-top: 10px;
+    width: 250px;
+    height: 57px;
+    font-family: "Roboto-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #E3E3E3;
+}
+
+.box1_2_1{
+    margin: 250px 25px 21px 25px;
+    height: 129px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1_2_1 .box-work-info-title{
+    height: 29px;
+    line-height: 14px;
+}
+
+.box1_3_1{
+    margin: 219px 25px 21px 25px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.partners-info{
+    margin-top: 89px;
+    height: 367px;
+}
+
+.partners-info-title{
+    margin: 0px 224px 35px 226px;
+    width: 491px;
+    height: 32px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #444444;
+}
+
+.partners-info-mainbox{
+    height: 224px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner-info-bigbox{
+    width: 221px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.partner-info-smallbox{
+    width: 221px;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+}
+
+.partner-img{
+    width: 120px;
+    height: 120px;
+    align-self: center;
+}
+
+.partner-name{
+    margin-top: 17px;
+    width: 221px;
+    height: 18px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #444444;
+}
+
+.about-partner{
+    margin-top: 12px;
+    width: 221px;
+    font-family: "Roboto-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+}
+
+.partner-info-smallbox .about-partner{
+    height: 38px;
+}
+
+.partner-info-bigbox .about-partner{
+    height: 57px;
+}
+
+.partner-button{
+    margin: 36px 380px 0px 381px;
+    padding: 12px 19px 11px 24px;
+    width: 180px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.see-other-partner{
+    width: 137px;
+    height: 17px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    color: #FF4E50;
+}
+
+.activity-ideas-box{
+    margin-top: 89px;
+    height: 1037px;
+}
+
+.activity-ideas-title{
+    margin: 0px 264px 35px 263px;
+    width: 413px;
+    height: 32px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #444444;
+}
+
+.activity-ideas-sections{
+    height: 970px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activity-ideas-section1, .activity-ideas-section2, .activity-ideas-section3{
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity-idea1-section1, .activity-idea2-section1, .activity-idea3-section1{
+    width: 300px;
+    height: 310px;
+    background-size: cover;
+}
+
+.activity-idea1-section1{
+    background-image: url(../images/Object_sports.png);
+}    
+
+.activity-idea2-section1{
+    background-image: url(../images/Object_health.png);
+}
+
+.activity-idea3-section1{
+    background-image: url(../images/Object_extreme.png);
+}
+
+.activity-idea-shadow1, .activity-idea-shadow2-left, .activity-idea-shadow2-right, .activity-idea-shadow3-left, .activity-idea-shadow3-right{
+    background: #000000;
+    opacity: 0.2;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.activity-idea-shadow1, .activity-idea-shadow2-left, .activity-idea-shadow3-right{
+    width: 300px;
+    height: 310px;
+}
+
+.activity-idea-shadow2-right, .activity-idea-shadow3-left{
+    width: 620px;
+    height: 310px;
+}
+
+.activity-idea-section-title{
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.activity-idea1-section1 .activity-idea-section-title{
+    margin: 142px 45px 141px 46px;
+    width: 209px;
+    height: 27px;
+}
+
+.activity-idea2-section1 .activity-idea-section-title{
+    margin: 142px 31px 141px 31px;
+    width: 238px;
+    height: 27px;
+}
+
+.activity-idea3-section1 .activity-idea-section-title{
+    margin: 128px 56px 128px 57px;
+    width: 187px;
+    height: 54px;
+}
+
+.activity-idea1-section2{
+    width: 300px;
+    height: 100%;
+    background-image: url(../images/Object_games.png);
+    background-size: cover;
+}
+
+.activity-idea2-section2{
+    width: 620px;
+    height: 100%;
+    background-image: url(../images/Object_culture.png);
+    background-size: cover;
+}
+
+.activity-idea1-section2 .activity-idea-section-title{
+    margin: 142px 110px 141px 110px;
+    width: 80px;
+    height: 27px;
+}
+
+.activity-idea2-section2 .activity-idea-section-title{
+    margin: 142px 179px 141px 180px;
+    width: 261px;
+    height: 27px;
+}
+
+.activity-idea1-section3{
+    width: 620px;
+    height: 100%;
+    background-image: url(../images/Object_enjoment.png);
+    background-size: cover;
+}
+
+.activity-idea1-section3 .activity-idea-section-title{
+    margin: 142px 171px 141px 172px;
+    width: 277px;
+    height: 27px;
+}
+
+.activity-idea2-section3{
+    width: 300px;
+    height: 100%;
+    background-image: url(../images/Object_travelling.png);
+    background-size: cover;
+}
+
+.activity-idea2-section3 .activity-idea-section-title{
+    margin: 142px 93.5px 141px 92.5px;
+    width: 114px;
+    height: 27px;
+}
+
+.activity-creation-box{
+    margin: 95px 230px 0px 228px;
+    width: 482px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-creation-title{
+    width: 358px;
+    height: 32px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    align-self: center;
+    text-align: center;
+    color: #444444;
+}
+
+.activity-creation-search{
+    margin-top: 43px;
+    height: 89px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activity-creation-search-title{
+    width: 415px;
+    height: 24px;
+    font-family: "Roboto-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    align-self: center;
+    text-align: center;
+    color: #666666;
+}
+
+.activity-creation-search-form{
+    width: 482px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.your-interests{
+    width: 299px;
+    height: 40px;
+    padding: 14px 0px 10px 14.63px;
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+}
+
+.button-interests-search{
+    width: 172.12px;
+    height: 40px;
+    padding: 12px 25.12px 11px 30px;
+    background: #FF4E50;
+    border-radius: 40px;
+}
+
+.button-interests-text{
+    width: 117px;
+    height: 17px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.footer-info{
+    margin-top: 100px;
+    padding-bottom: 36px;
+}
+
+.footer-line{
+    width: 100%;
+    height: 2px;
+    background: #FF4E50;
+    margin-bottom: 36px;
+}
+
+.footer-info-box{
+    margin: 0px auto;
+    width: 944px;
+    height: 184px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-company-name{
+    width: 119px;
+    height: 20px;
+    font-family: "Montserrat-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: #FF4E50;
+}
+
+.footer-caption, .footer-caption2{
+    height: 17px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    color: #444444;
+}
+
+.footer-caption{
+    width: 70px;
+}
+
+.footer-caption2{
+    width: 64px;
+}
+
+.footer-sections-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 11px;
+    width: 114px;
+    height: 156px;
+}
+
+.footer-section-box{
+    font-family: "Roboto-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+}
+
+.creation-info{
+    width: 110px;
+    height: 43px;
+}
+
+.designed_by{
+    margin-left: 26px;
+    width: 84px;
+    height: 12px;
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    color: #CCCCCC;
+}
+
+.company-logo-img{
+    margin-top: 7px;
+    width: 110px;
+    height: 24px;
+}
+
+@media screen and (max-width: 970px){
+    header{
+        background-position: center;
+    }
+
+    .header-top{
+        margin-right: 6.51%;
+        margin-left: 6.25%;
+        width: 87.24%;
+    }
+
+    .container{
+        width: 748px;
+        height: 2540px;
+    }
+    
+    .work-info{
+        margin-top: 94px; 
+        height: 462px;
+    }
+    
+    .work-info-title{
+        width: 289px;
+        height: 27px;
+        font-size: 22px;
+        line-height: 27px;
+        color: #444444;
+    }
+    
+    .box1_1, .box1_2, .box1_3{
+        width: 236px;
+    }
+    
+    .box1_1_1{
+        margin: 210px 20px 16px 20px;
+        height: 179px;
+    }
+    
+    .box-work-info-title{
+        width: 196px;
+        line-height: 14px;
+    }
+    
+    .box-work-info-description{
+        width: 196px;
+        height: 76px;
+    }
+    
+    .box1_2_1{
+        margin: 255px 20px 16px 20px;
+    }
+    
+    .box1_3_1{
+        margin: 210px 20px 16px 20px;
+        height: 179px;
+    }    
+
+    .partners-info{
+        margin: 94px 128px 0px 128px;
+        width: 492px;
+        height: 606px;
+    }
+    
+    .partners-info-title{
+        margin: 0px 38px 35px 38px;
+        width: 416px;
+        height: 27px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    
+    .partners-info-mainbox{
+        height: 464px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-self: center;
+    }
+    
+    .partner-info-smallbox{
+        width: 236px;
+    }
+
+    .partner-info-bigbox{
+        width: 236px;
+        height: 224px;
+    }
+
+    
+    .partner-name{
+        width: 236px;
+    }
+    
+    .about-partner{
+        width: 236px;
+    }
+    
+    .partner-button{
+        margin: 40px 175px 0px 180px;
+    }
+
+    .activity-ideas-box{
+        margin-top: 94px;
+        height: 1032px;
+    }
+    
+    .activity-ideas-title{
+        margin: 0px 199px 35px 199px;
+        width: 350px;
+        height: 27px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    
+    .activity-idea1-section1, .activity-idea2-section1, .activity-idea3-section1{
+        width: 236px;
+        background-position: center;
+    }
+    
+    .activity-idea-shadow1, .activity-idea-shadow2-left, .activity-idea-shadow3-right{
+        width: 236px;
+    }
+    
+    .activity-idea-shadow2-right, .activity-idea-shadow3-left{
+        width: 492px;
+    }
+    
+    .activity-idea1-section1 .activity-idea-section-title{
+        margin: 142px 15px 141px 15px;
+        width: 206px;
+    }
+    
+    .activity-idea2-section1 .activity-idea-section-title, .activity-idea3-section1 .activity-idea-section-title{
+        margin: 128px 15px;
+        width: 206px;
+        height: 54px;
+    }
+    
+    .activity-idea1-section2{
+        width: 236px;
+        background-position: center;
+    }
+    
+    .activity-idea2-section2{
+        width: 492px;
+        background-position: center;
+    }
+    
+    .activity-idea1-section2 .activity-idea-section-title{
+        margin: 142px 15px 141px 15px;
+        display: inline-block;
+        width: 206px;
+    }
+    
+    .activity-idea2-section2 .activity-idea-section-title{
+        margin: 142px 115px 141px 116px;
+    }
+    
+    .activity-idea1-section3{
+        width: 492px;
+    }
+    
+    .activity-idea1-section3 .activity-idea-section-title{
+        margin: 142px 107px 141px 108px;
+    }
+    
+    .activity-idea2-section3{
+        width: 236px;
+    }
+    
+    .activity-idea2-section3 .activity-idea-section-title{
+        margin: 142px 15px 141px 15px;
+        display: inline-block;
+        width: 206px;
+    }
+    
+    .activity-creation-box{
+        margin: 94px 133px 0px 133px;
+    }
+    
+    .activity-creation-title{
+        width: 303px;
+        height: 27px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .footer-info{
+        margin-top: 100px;
+        padding-bottom: 20px;
+    }
+    
+    .footer-info-box{
+        width: 692px;
+        height: 186px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    header{
+        height: 540px;
+        background-position: center;
+    }
+    
+    .header-top{
+        width: 153px;
+        height: 157px;
+        margin-top: 20px;
+        align-self: center;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .company-name{
+        order: 2;
+    }
+    
+    .registration{
+        order: 1;
+    }
+    
+    .header-center{
+        margin-top: 26.5px;
+        width: 280px;
+        height: 183.5px;
+    }
+    
+    .motto1{
+        width: 272px;
+        height: 74px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+    
+    .motto2{
+        margin-top: 5.5px;
+        width: 280px;
+        height: 49px;
+        font-size: 18px;
+    }
+    
+    .search{
+        margin-top: 15px;
+        width: 280px;
+    }
+    
+    .button-search{
+        margin: 12px 46.5px 11px 46.5px;
+    }
+
+    .container{
+        width: 300px;
+        height: 3097px;
+    }
+    
+    .work-info{
+        margin-top: 34px; 
+        height: 782px;
+    }
+    
+    .work-info-title{
+        margin-bottom: 15px;
+        width: 289px;
+        height: 27px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .box1-work-info{
+        height: 740px;
+        flex-direction: column;
+    }
+    
+    .box1_1, .box1_2, .box1_3{
+        width: 300px;
+        height: 240px;
+        background-position: center;
+    }
+    
+    .box1_1_1{
+        margin: 64px 30px 16px 20px;
+        height: 160px;
+    }
+    
+    .box-work-info-title{
+        width: 250px;
+    }
+    
+    .box-work-info-description{
+        width: 250px;
+        height: 57px;
+    }
+    
+    .box1_2_1{
+        margin: 95px 30px 16px 20px;
+    }
+    
+    .box1_2_1 .box-work-info-title{
+        height: 29px;
+        line-height: 14px;
+    }
+    
+    .box1_3_1{
+        margin: 64px 30px 16px 20px;
+        height: 160px;
+    }
+
+    .partners-info{
+        margin: 36px 10px 0px 10px;
+        width: 280px;
+        height: 1031px;
+    }
+    
+    .partners-info-title{
+        margin: 0px 0px 14px 0px;
+        width: 280px;
+        height: 54px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    
+    .partners-info-mainbox{
+        margin-left: 22px;
+        margin-right: 22px;
+        width: 236px;
+        height: 887px;
+    }
+    
+    .partner-info-bigbox, .partner-info-bigbox{
+        width: 236px;
+        height: 205px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .partner-name{
+        width: 236px;
+    }
+    
+    .about-partner{
+        width: 236px;
+    }
+    
+    .partner-button{
+        margin: 36px 0px 0px 0px;
+        padding: 12px 69px 11px 74px;
+        width: 280px;
+    }
+
+    .activity-ideas-box{
+        margin-top: 35px;
+        height: 987px;
+    }
+    
+    .activity-ideas-title{
+        margin: 0px 10px 33px 10px;
+        width: 280px;
+        height: 54px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    
+    .activity-ideas-sections{
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .activity-ideas-section1{
+        height: 380px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .activity-ideas-section2, .activity-ideas-section3{
+        height: 250px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .activity-idea1-section1, .activity-idea2-section1, .activity-idea3-section1{
+        width: 300px;
+        height: 120px;
+    }
+
+    .activity-idea1-section1{
+        background-image: url(../images/Object_sport_bigsize.png);
+    }
+
+    .activity-idea2-section1{
+        background-image: url(../images/Object_health_bigsize.png);
+    }
+
+    .activity-idea3-section1{
+        background-image: url(../images/Object_extreme_bigsize.png);
+    }
+
+
+    .activity-idea-shadow1, .activity-idea-shadow2-left, .activity-idea-shadow3-right{
+        width: 300px;
+        height: 120px;
+    }
+    
+    .activity-idea-shadow2-right, .activity-idea-shadow3-left{
+        width: 300px;
+        height: 120px;
+    }
+    
+    .activity-idea1-section1 .activity-idea-section-title{
+        margin: 47px 47px 46px 47px;
+        width: 206px;
+        height: 27px;
+    }
+    
+    .activity-idea2-section1 .activity-idea-section-title{
+        margin: 33px 47px 33px 47px;
+        width: 206px;
+        height: 54px;
+    }
+    
+    .activity-idea3-section1 .activity-idea-section-title{
+        margin: 33px 47px;
+        width: 206px;
+        height: 54px;
+    }
+    
+    .activity-idea2-section2, .activity-idea1-section2{
+        width: 300px;
+        height: 120px;
+    }
+
+    .activity-idea1-section2{
+        background-image: url(../images/Object_games_bigsize.png);
+    }
+    
+    .activity-idea1-section2 .activity-idea-section-title{
+        margin: 47px 47px 46px 47px;
+        width: 206px;
+    }
+    
+    .activity-idea2-section2 .activity-idea-section-title{
+        margin: 47px 19px 46px 20px;
+    }
+    
+    .activity-idea1-section3,  .activity-idea2-section3{
+        width: 300px;
+        height: 120px;
+    }
+
+    .activity-idea2-section3{
+        background-image: url(../images/Object_travelling_bigsize.png);
+    }
+    
+    .activity-idea1-section3 .activity-idea-section-title{
+        margin: 47px 11px 46px 12px;
+    }
+    
+    .activity-idea2-section3 .activity-idea-section-title{
+        margin: 47px 47px 46px 47px;
+        width: 206px;
+    }
+    
+    .activity-creation-box{
+        margin: 35px 10px 0px 10px;
+        width: 280px;
+        height: 192px;
+    }
+    
+    .activity-creation-title{
+        width: 280px;
+        height: 54px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    
+    .activity-creation-search{
+        margin-top: 9px;
+        height: 129px;
+    }
+    
+    .activity-creation-search-form{
+        width: 280px;
+        height: 90px;
+        flex-direction: column;
+    }
+
+    .your-interests{
+        width: 280px;
+        padding: 14px 0px 10px 15px;
+    }
+    
+    .button-interests-search{
+        width: 280px;
+        padding: 12px 76px 11px 87px;
+    }
+
+    .footer-info{
+        margin-top: 40px;
+        padding-bottom: 22px;
+    }
+    
+    .footer-line{
+        margin-bottom: 19px;
+    }
+    
+    .footer-info-box{
+        width: 280px;
+        height: 185px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .footer-company-name{
+        align-self: center;
+    }
+
+    .footer-sections{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer-caption, .footer-caption2{
+        align-self: center;
+    }
+    
+    .footer-sections-boxes{
+        display: flex;
+        padding-left: 46px;
+        padding-right: 46px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 1px;
+        width: 280px;
+        height: 52px;
+    }
+
+    .creation-info{
+        align-self: center;
+        margin-top: 14px;
+
+    }
+    
+    .designed_by{
+        margin: 0 auto;
+        width: 84px;
+    }
+}
